@@ -1,8 +1,7 @@
 /* Justin Pilecki */
-/* CS 325 - Fall 2019 */
 /* December 12, 2019 */
 
-spool 325query-results.txt
+spool query-results.txt
 
 prompt Query 1 will list all customer last names whose pets are staying at the
 prompt  Pet Motel and link them up with their pet types.

@@ -1,8 +1,7 @@
 /* Justin Pilecki */
-/* CS 325 - Fall 2019 */
 /* December 12, 2019 */
 
-spool 325report3-results.txt
+spool report3-results.txt
 
 /* The owner would like a view that shows the information of the accomodations
    and residents. Specifically, the room number, room size, the ID and type of

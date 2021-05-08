@@ -1,8 +1,7 @@
 /* Justin Pilecki */
-/* CS 325 - Fall 2019 */
 /* December 12, 2019 */
 
-spool 325report-results2.txt
+spool report-results2.txt
 
 /* The owner would like to see the salaries of all the employees, along with a
    computed salary average on availability. The training status and

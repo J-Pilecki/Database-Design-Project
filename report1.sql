@@ -1,8 +1,7 @@
 /* Justin Pilecki */
-/* CS 325 - Fall 2019 */
 /* December 12, 2019 */
 
-spool 325report1-results.txt
+spool report1-results.txt
 
 /* The owner of the Pet Motel wants to plan a training session for volunteers,
    but needs to know which volunteers past Volunteer ID of 2 still need to be

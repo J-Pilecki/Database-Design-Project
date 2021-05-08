@@ -1,8 +1,7 @@
 /* Justin Pilecki */
-/* CS 325 - Fall 2019 */
 /* December 12, 2019 */
 
-spool 325result-contents.txt
+spool result-contents.txt
 
 prompt Volunteer
 select *

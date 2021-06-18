@@ -1,4 +1,4 @@
-/* Justin Pilecki */
+/* J. Pilecki */
 /* December 12, 2019 */
 
 spool query-results.txt

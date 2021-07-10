@@ -26,7 +26,6 @@ volunteer_lname varchar2(15),
 availability int,
 primary key (volunteer_id));
 
-
 /* Table Customer holds attributes about a customer who checks their pet into
 the motel */
 
@@ -44,7 +43,6 @@ empl_lname varchar2(15),
 availability int,
 salary int,
 primary key (empl_id));
-
 
 /* Table Training holds data on the training that both employees and
 volunteers receive */
@@ -77,7 +75,6 @@ pet_id int,
 primary key (room_num),
 foreign key (pet_id) references Pet);
 
-
 /* Table Customer_phones holds the possibly multiple phone numbers of
 customers */
 
@@ -103,8 +100,7 @@ cust_classes varchar2(10),
 primary key (cust_id, cust_classes),
 foreign key (cust_id) references Customer);
 
-/* Table Class holds attributes of the classes that dogs and customers attend
-*/
+/* Table Class holds attributes of the classes that dogs and customers attend */
 
 create table Class
 (class_id int,
@@ -142,8 +138,7 @@ training_id int,
 primary key (empl_id, training_id),
 foreign key (empl_id) references Employee);
 
-/* Table Volunteer_training holds data for the training that volunteers have
-*/
+/* Table Volunteer_training holds data for the training that volunteers have */
 
 create table Volunteer_training
 (volunteer_id int,
@@ -161,8 +156,7 @@ primary key (pet_id, volunteer_id),
 foreign key (pet_id) references Pet,
 foreign key (volunteer_id) references Volunteer);
 
-/* Table Volunteer_phones holds the possibly multiple phone number of a
-volunteer */
+/* Table Volunteer_phones holds the possibly multiple phone number of a volunteer */
 
 create table Volunteer_phones
 (volunteer_id int,
